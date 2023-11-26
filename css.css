@@ -1,0 +1,89 @@
+
+
+.p1container {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.unsplash.com/photo-1604971439899-0c23fe60ea9d?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: 50% 30%;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.main-heading{
+    font-weight: bold;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    text-stroke: 1px rgb(255, 255, 255);
+}
+.form-heading{
+    font-weight: bold;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    text-stroke: 1px rgb(0, 0, 0);
+}
+.form-box{
+    border-radius: 10px;
+    padding: 20px;
+    color: #000000;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    backdrop-filter: blur(50px);
+    
+    font-weight: 500;
+}
+.form-input-box{
+    background-color: transparent;
+    border-color: #000000;
+    border-radius: 20px;
+    padding-left: 7px;
+    color: #000000;
+    border-width: 1px;
+}
+
+.form-button{
+    background-color: transparent;
+    width: 25%;
+    border-radius: 4px;
+    border-color: #000000;
+    color: #000000;
+    border-width: 1px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.form-button:hover{
+    background-color: #000000;
+    color: #ffffff; 
+}
+.comic-section{
+    padding: 30px;
+    margin: 10px;
+}
+.contact-box{
+    /* background-color: #000000; */
+    color:#ffffff;
+    backdrop-filter: blur(30px);
+    /* -webkit-text-stroke: 1px rgb(255, 255, 255);
+    text-stroke: 1px rgb(255, 255, 255); */
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    background-image: url('https://images.unsplash.com/photo-1604971439899-0c23fe60ea9d?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: 50% 30%;
+    background-size: cover;
+    background-attachment: fixed;
+
+} 
+feedback-button{
+    background-color: black;
+    width: 25%;
+    border-radius: 4px;
+    border-color: #ffffff;
+    color: #ffffff;
+    border-width: 1px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.feedback-button:hover{
+    background-color: #ffffff;
+    color: #000000; 
+}
+.black-box{
+    background-color: black;
+    padding: 10px;
+}
